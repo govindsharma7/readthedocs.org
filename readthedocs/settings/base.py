@@ -97,6 +97,8 @@ INSTALLED_APPS = [
     'builds',
     'core',
     'rtd_tests',
+
+    'gunicorn',
 ]
 
 if DEBUG:
