@@ -61,6 +61,11 @@ def run(*commands):
             ret = -1
             log.error("Command failed", exc_info=True)
 
+        if out:
+            log.info('stdout: %s' % out)
+        if err:
+            log.info('stderr: %s' % err)
+
     return (ret, out, err)
 
 
