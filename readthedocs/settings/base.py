@@ -207,4 +207,5 @@ LOGGING = {
     }
 }
 
-
+# this needs to be local to the pip command because it breaks the internal http api
+HTTP_PROXY = 'http://squid:3128'
