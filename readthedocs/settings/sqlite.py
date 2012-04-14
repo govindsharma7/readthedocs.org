@@ -27,7 +27,7 @@ TEST_OUTPUT_DIR = os.path.join(SITE_ROOT, 'xml_output')
 
 SLUMBER_USERNAME = 'test'
 SLUMBER_PASSWORD = 'test'
-SLUMBER_API_HOST = 'http://localhost:8000'
+SLUMBER_API_HOST = 'http://localhost:29000'
 
 HAYSTACK_CONNECTIONS = {
     'default': {
