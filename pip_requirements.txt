@@ -2,7 +2,7 @@ Distutils2==1.0a4
 Django==1.3.1
 Jinja2==2.6
 Pygments==1.5
-South==0.7.4
+South==0.7.2
 Sphinx==1.1.3
 Unipath==0.2.1
 amqplib==1.0.2
