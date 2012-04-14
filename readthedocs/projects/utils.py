@@ -44,6 +44,7 @@ def run(*commands):
         del environment['PYTHONPATH']
     # this needs to be local to the pip command because it breaks the internal http api
     environment['http_proxy'] = getattr(settings, 'HTTP_PROXY', '')
+    environment['https_proxy'] = getattr(settings, 'HTTPS_PROXY', '')
     cwd = os.getcwd()
     if not commands:
         raise ValueError("run() requires one or more command-line strings")
