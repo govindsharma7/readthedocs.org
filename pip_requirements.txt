@@ -1,30 +1,39 @@
-docutils
-simplejson
-sphinx
-celery
-django-celery
-django-kombu
-celery-haystack
-django-extensions
-#django-haystack
-mimeparse
-django-profiles
-mercurial
-bzr
-github2
-httplib2
-distutils2
-Unipath
-django
-unittest-xml-reporting
-redis
-south
-slumber
-git+https://github.com/nathanborror/django-basic-apps.git#egg=basic
-git+https://github.com/alex/django-taggit.git#egg=taggit
-git+https://github.com/ericflo/django-pagination.git#egg=pagination
-git+https://github.com/nathanborror/django-registration.git#egg=django-registration
-git+https://github.com/toastdriven/django-tastypie.git#egg=tastypie
-git+https://github.com/toastdriven/django-haystack#egg=django-haystack
-git+https://github.com/deceze/Sphinx-HTTP-domain.git#egg=sphinx-http-domain
+Distutils2==1.0a4
+Django==1.3.1
+Jinja2==2.6
+Pygments==1.5
+South==0.7.4
+Sphinx==1.1.3
+Unipath==0.2.1
+amqplib==1.0.2
+anyjson==0.3.1
+bzr==2.4.2
+celery==2.5.2
+celery-haystack==0.4
+django-appconf==0.5
+-e git+https://github.com/nathanborror/django-basic-apps.git@61953b3eeb89dcb2aececc9b2def8b65964c4e9a#egg=django_basic_apps-dev
+django-celery==2.5.3
+django-extensions==0.7.1
+-e git+https://github.com/toastdriven/django-haystack@189f6d5dc484ad00afab071296f868cffc0ea26b#egg=django_haystack-dev
+django-kombu==0.9.4
+-e git+https://github.com/ericflo/django-pagination.git@47e7ec874cd7dddda5ed13ffb6993a64dced2537#egg=django_pagination-dev
+django-picklefield==0.2.0
+django-profiles==0.2
+-e git+https://github.com/nathanborror/django-registration.git@dc0b564b7bfb79f58592fe8ad836729a85ec17ae#egg=django_registration-dev
+-e git+https://github.com/alex/django-taggit.git@36f6dabcf10e27c7d9442a94243d4189f2a4f121#egg=django_taggit-dev
+-e git+https://github.com/toastdriven/django-tastypie.git@7d998a2b6002f0f11de8fdefbb2c9f46c8247c88#egg=django_tastypie-dev
+docutils==0.8.1
+github2==0.6.1
 gunicorn==0.13.4
+httplib2==0.7.1
+kombu==2.1.5
+meld3==0.6.8
+mercurial==2.1
+mimeparse==0.1.3
+python-dateutil==1.5
+redis==2.2.4
+requests==0.6.6
+simplejson==2.1.1
+slumber==0.4.1
+-e git+https://github.com/deceze/Sphinx-HTTP-domain.git@2f6f34f9ce2f783c20dfc521e7476aaf502a9eab#egg=sphinx_http_domain-dev
+unittest-xml-reporting==1.3.2
